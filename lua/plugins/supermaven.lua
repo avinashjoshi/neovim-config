@@ -5,6 +5,6 @@ return {
       disable_keymaps = true,
     })
     local completion_preview = require("supermaven-nvim.completion_preview")
-    vim.keymap.set("i", "<SA-a>", completion_preview.on_accept_suggestion, { noremap = true, silent = true })
+    vim.keymap.set("i", "<CA-a>", completion_preview.on_accept_suggestion, { noremap = true, silent = true })
   end,
 }
