@@ -26,7 +26,7 @@ return {
       },
       endwise = { enable = true },
       autoinstall = true,
-      highlight = { enable = true, disable = { "yaml", "ruby" } },
+      highlight = { enable = true },
       indent = { enable = true },
     })
   end,
